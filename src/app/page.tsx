@@ -190,7 +190,7 @@ function Long() {
 
       
 
- <div id="coaching" className="lg:h-[100vh] h-[170vh] w-full bg-gradient-to-b from-[#1E1E1E] to-black grid grid-cols-12 grid-rows-12 gap-[24px] px-[32px] py-[24px] text-white ">
+ <div id="coaching" className="lg:h-[100vh] h-[190vh] w-full bg-gradient-to-b from-[#1E1E1E] to-black grid grid-cols-12 grid-rows-12 gap-[24px] px-[32px] py-[24px] text-white ">
             
             <div className="col-span-full lg:row-start-2 row-start-1 flex flex-col gap-12">
             <h2 className=" text-center lg:text-[48px] text-[32px] font-semibold">Comment se passe le coaching avec Zencoach</h2>
