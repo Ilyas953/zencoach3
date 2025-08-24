@@ -108,17 +108,17 @@ function Long() {
 
     return (
       <>
-      <div className=" bg-gradient-to-bl from-black via-[#1E1E1E] to-[#ff6b35] rounded-xl border-[1px] flex flex-col lg:row-start-3 my-12 lg:row-end-9 lg:col-span-full px-6 lg:py-6 lg:grid lg:grid-cols-12 lg:gap-0 gap-12 pb-6 pt-[500px]">
+      <div className=" bg-gradient-to-bl from-black via-[#1E1E1E] to-[#ff6b35] rounded-xl border-[1px] flex flex-col lg:row-start-3 my-12 lg:row-end-9 lg:col-span-full px-6 lg:py-6 lg:grid lg:grid-cols-12 lg:gap-0 gap-12 pb-6 lg:items-start items-center">
           <Image 
          src="/image2.png"
          alt="portrait du second coach"
          width={319}
          height={472}
-         className="absolute lg:-my-40 top-[1520px] lg:top-[1217] left-6 " />
+         className="lg:absolute lg:-my-40 top-[1520px] lg:top-[1217] left-6 " />
           <p className="text-2xl col-start-4 col-end-6 h-fit ">Decouvrez ZenCoach, un coach passionné, à l&apos;écoute de vos besoins, prêt à vous accompagner avec expertise et bienveillance pour révéler le meilleur de vous-même.</p>
 
           <div className="lg:flex lg:flex-row flex flex-col gap-6  col-start-9 col-end-13 p-0 ">
-          <Card className=" w-full h-full col-end-13 gap-6">
+          <Card className=" w-full  col-end-13 gap-6">
             <div className="flex flex-col gap-3">
           <p className="text-xl"> Matthieu</p>
           <div className="flex flex-row gap-3">
